@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Roboto+Slab:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2pc;
+}
+body,
+html {
+  overflow: hidden;
+  background-image: url(/Img/texnolog_fon.jpg);
+  background-size: cover;
+  background-size: 100%;
+}
+.navbar {
+  display: flex;
+  background-color: rgb(24, 22, 22);
+  font-size: 1.2pc;
+  font-family: "Playfair Display", serif;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-list a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+}
+.nav-list a:hover {
+  background-color: rgb(78, 73, 73);
+}
+
+.nav-btn {
+  display: none;
+}
+.navbar img {
+  margin-top: 18px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+@media (max-width: 1000px) {
+  .nav-btn {
+    font-size: 2em;
+    padding-inline: 10px;
+    padding-bottom: 3px;
+    border: none;
+    background-color: rgb(24, 22, 22);
+    color: white;
+    display: block;
+    cursor: pointer;
+  }
+  .nav-list {
+    display: none;
+  }
+  .nav-btn:hover {
+    background-color: rgb(78, 73, 73);
+  }
+  .drop:hover .nav-list {
+    display: block;
+    position: absolute;
+    /* Элемент выдёргивается из контейнера */
+    /* top: 100px;
+    left: 100px; */
+    right: 1px;
+    background-color: rgb(24, 22, 22);
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+}
+#R_had {
+  display: block;
+  float: left;
+  position: relative;
+  /* left: 70px; */
+  margin-left: 20px;
+  font-size: 1.5pc;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.main {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.quiz-frame {
+  border: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.quiz__head {
+  font-size: 20pt;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+
+.head__content {
+  padding: 5px;
+}
+
+.quiz__body {
+  margin: 10px;
+}
+
+.quiz__footer {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+}
+
+.footer__content {
+  padding: 5px;
+}
+
+.button {
+  border: 0;
+  border-radius: 10px;
+  background: #6477eb;
+  color: #fff;
+  padding: 10px 25px;
+  width: 70%;
+  font-size: 15pt;
+  display: block;
+  margin: 2px auto;
+  cursor: pointer;
+}
+
+.button_wrong {
+  background: #eb6465;
+}
+
+.button_correct {
+  background: #5eb97d;
+}
+
+.button_passive {
+  background: #b3b3b3;
+}
+.mainX {
+  display: block;
+  float: left;
+  position: relative;
+  left: 1%;
+  width: 96%;
+  height: auto;
+  background-color: rgb(0, 211, 253);
+  border: 2px solid rgb(0, 64, 255);
+  opacity: 90%;
+  margin-top: 50px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.mainX > p {
+  text-align: center;
+  font-size: 1.5pc;
+}
+.h_text {
+  width: 380px;
+  height: 40px;
+  background-color: rgb(82, 245, 85);
+  list-style: none;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 1.2em;
+  padding-top: 10px;
+  font-weight: bold;
+  opacity: 90%;
+}
