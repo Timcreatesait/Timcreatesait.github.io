@@ -34,6 +34,9 @@ p:not(.h_text) {
   margin-left: 18px;
   margin-right: 18px;
 }
+table_sec{
+  color: black
+}
 @media (max-width: 1000px) {
   .nav-btn {
     font-size: 2em;
