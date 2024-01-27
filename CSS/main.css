@@ -34,12 +34,10 @@ p:not(.h_text) {
   margin-left: 18px;
   margin-right: 18px;
 }
-#table_sec td{
+table td,th{
   color: black:
 }
-#table_sec th{
-  color: black:
-}
+
 @media (max-width: 1000px) {
   .nav-btn {
     font-size: 2em;
